@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1530229706 source:/home/alumno/Escritorio/paraElParcial/SEGUNDO_PARCIAL/Ejercicio2doParcial/ArrayList.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1530229153 /home/alumno/Escritorio/paraElParcial/SEGUNDO_PARCIAL/Ejercicio2doParcial/ArrayList.h
+
+1530226408 source:/home/alumno/Escritorio/paraElParcial/SEGUNDO_PARCIAL/Ejercicio2doParcial/Empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+	"utn.h"
+
+1530225758 /home/alumno/Escritorio/paraElParcial/SEGUNDO_PARCIAL/Ejercicio2doParcial/Empleado.h
+
+1530227641 source:/home/alumno/Escritorio/paraElParcial/SEGUNDO_PARCIAL/Ejercicio2doParcial/Parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Empleado.h"
+
+1530229773 source:/home/alumno/Escritorio/paraElParcial/SEGUNDO_PARCIAL/Ejercicio2doParcial/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"ArrayList.h"
+	"Parser.h"
+	"Archivo.h"
+
+1529584990 /home/alumno/Escritorio/paraElParcial/SEGUNDO_PARCIAL/Ejercicio2doParcial/Parser.h
+	"ArrayList.h"
+
+1530222557 source:/home/alumno/Escritorio/paraElParcial/SEGUNDO_PARCIAL/Ejercicio2doParcial/valid.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1530222557 /home/alumno/Escritorio/paraElParcial/SEGUNDO_PARCIAL/Ejercicio2doParcial/valid.h
+
+1530222557 source:/home/alumno/Escritorio/paraElParcial/SEGUNDO_PARCIAL/Ejercicio2doParcial/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1530222557 /home/alumno/Escritorio/paraElParcial/SEGUNDO_PARCIAL/Ejercicio2doParcial/utn.h
+
+1530229766 source:/home/alumno/Escritorio/paraElParcial/SEGUNDO_PARCIAL/Ejercicio2doParcial/Archivo.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"ArrayList.h"
+	"Archivo.h"
+
+1530230088 /home/alumno/Escritorio/paraElParcial/SEGUNDO_PARCIAL/Ejercicio2doParcial/Archivo.h
+
