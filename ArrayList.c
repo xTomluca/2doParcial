@@ -283,7 +283,7 @@ int al_push(ArrayList* this, int index, void* pElement)
     int i, returnAux = -1;
     if( this != NULL && pElement != NULL && (index <= al_len(this) && index >= 0))
     {
-        if(al_len(this) < this->reservedSize)
+        if(al_len(this) < this->reservedSize ||!resizeUp(this))
         {
             for(i=al_len(this) ; index<i ; i--)
             {
@@ -293,17 +293,6 @@ int al_push(ArrayList* this, int index, void* pElement)
             this->size++;
             returnAux=0;
         }
-        else if(!resizeUp(this))
-        {
-            for(i=al_len(this) ; index<i ; i--)
-            {
-                al_set(this,i,al_get(this,i-1));
-            }
-            al_set(this,index,pElement);
-            this->size++;
-            returnAux=0;
-        }
-
     }
     return returnAux;
 }
@@ -523,8 +512,18 @@ int resizeUp(ArrayList* this)
  */
 int expand(ArrayList* this,int index)
 {
-    int returnAux = -1;
-
+    int i,returnAux = -1;
+    if( this != NULL && (index <= al_len(this) && index >= 0))
+    {
+        if(al_len(this) < this->reservedSize || !resizeUp(this))
+        {
+            for(i=al_len(this) ; index<i ; i--)
+            {
+                al_set(this,i,al_get(this,i-1));
+            }
+            returnAux=0;
+        }
+    }
 
     return returnAux;
 }

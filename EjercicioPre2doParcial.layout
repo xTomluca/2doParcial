@@ -1,19 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
+	<File name="Archivo.c" open="0" top="0" tabpos="0">
+		<Cursor position="87" topLine="0" />
+	</File>
+	<File name="Archivo.h" open="1" top="0" tabpos="4">
+		<Cursor position="170" topLine="0" />
+	</File>
+	<File name="ArrayList.c" open="1" top="0" tabpos="6">
+		<Cursor position="13094" topLine="123" />
+	</File>
+	<File name="ArrayList.h" open="1" top="0" tabpos="5">
+		<Cursor position="1311" topLine="18" />
+	</File>
 	<File name="Empleado.c" open="1" top="0" tabpos="2">
+		<Cursor position="2147" topLine="81" />
+	</File>
+	<File name="Empleado.h" open="1" top="0" tabpos="3">
+		<Cursor position="767" topLine="0" />
+	</File>
+	<File name="Parser.c" open="0" top="0" tabpos="5">
+		<Cursor position="86" topLine="0" />
+	</File>
+	<File name="Parser.h" open="0" top="0" tabpos="4">
 		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="Empleado.h" open="1" top="1" tabpos="3">
-		<Cursor position="0" topLine="0" />
+	<File name="main.c" open="1" top="1" tabpos="1">
+		<Cursor position="2143" topLine="24" />
 	</File>
-	<File name="Parser.c" open="1" top="0" tabpos="5">
-		<Cursor position="0" topLine="0" />
+	<File name="utn.c" open="0" top="0" tabpos="0">
+		<Cursor position="1253" topLine="71" />
 	</File>
-	<File name="Parser.h" open="1" top="0" tabpos="4">
-		<Cursor position="0" topLine="0" />
-	</File>
-	<File name="main.c" open="1" top="0" tabpos="1">
-		<Cursor position="0" topLine="0" />
+	<File name="utn.h" open="0" top="0" tabpos="0">
+		<Cursor position="1527" topLine="15" />
 	</File>
 </CodeBlocks_layout_file>
